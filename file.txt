@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<title> Austin's noobie shell command site </title>
+
+	<h1>
+		<div style="width: 100%; font-size: 40px; font-weight: bold; text-align: center;">
+		Shell Commands for <span style="color:red;"> Unix </span>
+		</div>
+	</h1>
+
+	<h2> This website is meant to give insight on the most commonly used shell commands for unix based operating systems </h2>
+
+	<table width="90%" border="1" cellpadding="7">
+		<tr>
+			<th bgcolor="lightblue"> Command </th>
+			<th bgcolor="lightblue"> Desctription </th>
+			<th bgcolor="lightblue"> Usage </th>		
+
+		<tr>
+			<th> ls </th>
+			<th>
+				Lists files in current directory
+				<br></br>
+				List in long format
+			</th>
+			<th>
+				ls
+				<br></br>
+				ls -alF
+			</th>
+		</tr>
+
+		<tr>
+			<th> cd </th>
+			<th>
+				Change directory to tempdir
+				<br></br>
+				Move back one directory
+				<br></br>
+				Move into your home directory
+			 </th>
+			<th>
+				cd tempdir
+				<br></br>
+				cd ..
+				<br></br>
+				cd ~
+			</th>
+		</tr>
+		<tr>
+			<th> mkdir </th>
+			<th> Makes a directory called graphics</th>
+			<th> mkdir graphics</th>
+		</tr>
+		<tr>
+			<th> rmdir </th>
+			<th> Remove directory (must be empty) </th>
+			<th> rmdir emptydir </th>
+		</tr>
+		<tr>
+			<th> cp </th>
+			<th> Copy file into directory
+				<br></br>
+				Make backup of file 1
+			</th>
+			<th>
+				cp file1 web-docs
+				<br></br>
+				cp file1 file1.bak
+			</th>
+		</tr>
+		<tr>
+			<th> rm </th>
+			<th>
+				Removes or deletes file
+				<br></br>
+				Remove all files in dir
+			</th>
+			<th> 
+				rm file1.bak
+				<br></br>
+				rm *.tmp
+			</th>
+		</tr>
+		<tr>
+			<th> mv </th>
+			<th> Moves or renames files </th>
+			<th> mv old.html new.html</th>
+		</tr>
+		<tr>
+			<th> more </th>
+			<th> Look at file, one page at a time </th>
+			<th> more index.html </th>
+		</tr>
+		<tr>
+			<th> lpr </th>
+			<th> Sent file to printer </th>
+			<th> lpr index.html </th>
+		</tr>
+
+		<tr>
+			<th> man </th>
+			<th> Online manual (help) about command </th>
+			<th> man ls </th>
+		</tr>
+	</table>
+
+	<body>
+		<div style="width: 100%; font-size: 40px; font-weight: bold; text-align: center;">
+		<h3> Tux The Penguin! </h2>
+		<p> He's famous in the linux community! </p>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.png/220px-Tux.png">
+		<br></br>
+
+		<a href="https://en.wikipedia.org/wiki/Tux">Click here to learn more on Tux</a> 
+
+		<br></br>
+		
+		</div>
+		<h4>
+		<a href="file.txt"> Click here to view this page's source </a>
+		<br></br>
+		</h4>
+		<h4>
+			<pre>
+				This is 	an example
+				of the pretag		used
+				for extra credit.
+			</pre>
+		</h4>
+	
+</html>

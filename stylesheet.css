@@ -1,0 +1,69 @@
+table, td, th {
+/* border: 4px solid orange; */
+border: 5px ;
+border-collapse: collapse;
+vertical-align: top;
+text-align: center;
+padding: "7";
+margin-left:15%;
+margin-right:15%;
+}
+
+
+thead > tr:first-child {
+	background-color: blue; /*#555555;*/
+	font-family: fantasy, monospace;
+	font-weight: bolder;
+	font-size: 17pt;
+}
+
+tbody > tr:nth-child(1) {
+	background-color: lightblue;
+}
+
+tbody > tr:nth-child(even) {
+	background-color: gray;
+}
+
+tbody > tr:nth-child(odd) {
+	background-color: lightgray;
+}
+
+tbody > tr:hover {
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+}
+
+tbody > tr:visited {
+	color:black;
+	background-color: black;
+}
+
+p:first-of-type {
+    background: white;
+}
+
+p:nth-child(2){
+	background: white;
+}
+p.inline {
+    display: inline;
+}
+
+body {
+	background-image: url("erikfalor.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: navy;
+	margin-left: 20px;
+}
+*/
+
